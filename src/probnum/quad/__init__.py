@@ -10,6 +10,8 @@ __all__ = [
     "bayesquad",
     "BayesianQuadrature",
     "WarpedBayesianQuadrature",
+    "IntegrationMeasure",
+    "LebesgueMeasure",
 ]
 
 # Set correct module paths. Corrects links and module paths in documentation.

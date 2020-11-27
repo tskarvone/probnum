@@ -1,9 +1,13 @@
-"""Implementation of Bayesian Quadrature."""
+"""
+Bayesian quadrature
+"""
 
+import abc
+from typing import Tuple, Dict
 
-class BayesianQuadrature:
+class BayesianQuadrature(abc.ABC):
     """
-    Bayesian quadrature.
+    Abstract class for Bayesian quadrature.
 
     Bayesian quadrature methods build a model for the integrand via function
     evaluations and return a belief over the value of the integral on a given
